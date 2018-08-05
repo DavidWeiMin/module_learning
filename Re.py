@@ -23,3 +23,4 @@ if __name__=='__main__':
     123 23243 99549 7897dgjdg778 真的有点难记，什么.啊?啊[]啊aaaaaaa. \
     hhhhh asssx,dhjkashdkf dwadhh32urhfnkshdahflasfwghuwigh'
     r = re_grammar('aa+',s)
+    print('a')
