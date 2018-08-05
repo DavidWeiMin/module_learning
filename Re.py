@@ -11,12 +11,7 @@ class re_grammar():
         self.pattern = new_pattern
         
     def re_function(self):
-        # print(re.match(self.pattern,self.str).group())    
-        # print(self.r.search(self.str)+'\n')
         print(re.findall(self.pattern,self.str))
-        # print(self.r.finditer(self.str)+'\n')
-        # print(self.r.sub('戴',self.str)+'\n')
-        # print(self.r.subn('戴',self.str)+'\n')
 
 if __name__=='__main__':
     # 普通字符串与 raw 字符串的区别
@@ -28,4 +23,3 @@ if __name__=='__main__':
     123 23243 99549 7897dgjdg778 真的有点难记，什么.啊?啊[]啊aaaaaaa. \
     hhhhh asssx,dhjkashdkf dwadhh32urhfnkshdahflasfwghuwigh'
     r = re_grammar('aa+',s)
-    re.match
